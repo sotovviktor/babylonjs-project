@@ -16,7 +16,7 @@ var createScene = function (engine) {
   // Shadow generator
   const shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
       
-  BABYLON.SceneLoader.ImportMesh("him", "/scenes/Dude/", "Dude.babylon", scene, function (newMeshes2, particleSystems2, skeletons2) {
+  BABYLON.SceneLoader.ImportMesh("him", import.meta.env.BASE_URL + "/scenes/Dude/", "Dude.babylon", scene, function (newMeshes2, particleSystems2, skeletons2) {
       var dude = newMeshes2[0];
       dude.scaling = new BABYLON.Vector3(0.2, 0.2, 0.2);
           
