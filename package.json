@@ -1,0 +1,15 @@
+{
+  "name": "babylonjs-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^4.2.0"
+  }
+}
